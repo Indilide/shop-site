@@ -361,11 +361,12 @@
  body {
     /*font-family: 'Raleway', sans-serif;    
     */
-    background-color: #F4F4F4;
+    background-color: #f2f2f2;
+    ;
 }
 
 nav {
-    background-color: #175c1e;
+    background-color: #ff6161;
     height: 50px;
     line-height: 50px;
     padding: 0px 100px;
@@ -378,31 +379,65 @@ nav {
 
 .site-top {
     
-    background-color: #F4F4F4;
+    background-color: #ede576;
 }
 
 .site-top-nav {
     font-family: 'Lato', sans-serif;
     font-size: 0.9em;
     float: right;
-    color: #F4F4F4;
+    color: #ede576;
     padding: 0 15px;
 }
 .site-top-nav:hover
 {
-    background-color: #0f3d14;
+    background-color:  #ff4d4d;
     cursor: pointer;
 }
 
-.site-top-logo {
-    vertical-align: middle;
+#site-top-user {
+  width: 100%;
+  height: 40%;
 }
 
-.site-top-user {
-    
+.site-top-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 .site-top-user-header {
-    color: darkred;
+    color: #ede576;
+    background-color: #ff6161;
     font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+#site-top-images {
+  height: 300px;
+  background-color: #f2f2f2;
+  border-top-style: groove;
+  border-bottom-style: groove;
+  border-top-color: #ff4d4d;
+  border-bottom-color: #ff4d4d;
+  display: flex;
+}
+
+.flex-images{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.flex-conteiner {
+  padding: 100px;
+  flex-grow: 1; 
+}
+
+.flex-conteiner:hover {
+  background-color:#e6e6e6;
+  cursor: pointer;
 }
