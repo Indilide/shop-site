@@ -1,0 +1,25 @@
+img {
+    max-width: 100%;
+}
+
+body {
+   /*font-family: 'Raleway', sans-serif;    
+   */
+   background-color: $site-col;
+   ;
+}
+
+nav {
+   background-color: $nav-col;
+   height: 50px;
+   line-height: 50px;
+   padding: 0px 100px;
+}
+
+
+.site-top-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  

@@ -1,0 +1,39 @@
+#site-top-user {
+    width: 100%;
+    height: 40%;
+  }
+  
+  .site-top-user-header {
+      color: #ede576;
+      background-color: $nav-col;
+      font-family: 'Raleway', sans-serif;
+      text-align: center;
+  }
+  
+  #site-top-images {
+    height: 300px;
+    background-color: $site-col;
+    border-top-style: groove;
+    border-bottom-style: groove;
+    border-top-color: $image-bor-col;
+    border-bottom-color: $image-bor-col;
+    display: flex;
+  }
+  
+  .flex-images{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  .flex-conteiner {
+    padding: 100px;
+    flex-grow: 1; 
+  }
+  
+  .flex-conteiner:hover {
+    background-color:#e6e6e6;
+    cursor: pointer;
+  }
