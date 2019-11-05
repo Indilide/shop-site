@@ -1,13 +1,12 @@
 .site-top {
-    
-    background-color: #ede576;
+    background-color: $main-logo-col;
 }
 
 .site-top-nav {
     font-family: 'Lato', sans-serif;
     font-size: 0.9em;
     float: right;
-    color: #ede576;
+    color: $main-logo-col;
     padding: 0 15px;
 }
 .site-top-nav:hover
